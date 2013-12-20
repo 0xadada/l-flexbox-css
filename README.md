@@ -25,7 +25,8 @@ Include l-flexbox.css in your HTML HEAD.
 Create a "flexbox" container element, add the `l-flexbox` class to this element.
 Create child-elements and add the `l-flexbox--item` class to these elements.
 
-```<div class="l-flexbox" style="border:1px solid red;">
+```
+<div class="l-flexbox" style="border:1px solid red;">
     <div class="l-flexbox--item" style="border:1px solid blue;">First flex item</div>
     <div class="l-flexbox--item" style="border:1px solid green;">Second flex item</div>
 </div>
