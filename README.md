@@ -18,7 +18,7 @@ the flexbox spec.
 
 ## Dependencies
 
-[Modernizr](https://github.com/Modernizr/Modernizr)
+* [Modernizr](https://github.com/Modernizr/Modernizr)
 
 ## How to Install
 * Install with [Bower](http://bower.io/): `bower install --save l-flexbox-css`
@@ -26,7 +26,7 @@ the flexbox spec.
 
 ## How to use it
 
-Include l-flexbox.css in your HTML HEAD.
+Include a `<link>` reference to l-flexbox.css (and any extensions) in your HTML head.
 
 Create a "flexbox" container element, add the `l-flexbox` class to this element.
 Create child-elements and add the `l-flexbox--item` class to these elements.
