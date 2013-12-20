@@ -1,7 +1,7 @@
 # l-flexbox
 
 l-flexbox.css is a CSS utility class to help you quickly build complex
-layouts using flexbox.
+layouts using `flexbox`.
 
 l-flexbox.css supports a `float` fallback for browsers that don't support
 the flexbox spec.
@@ -22,10 +22,25 @@ the flexbox spec.
 
 Include l-flexbox.css in your HTML HEAD.
 
-To create a "flexbox" container, add the `l-flexbox` class to this element.
+Create a "flexbox" container element, add the `l-flexbox` class to this element.
 Create child-elements and add the `l-flexbox--item` class to these elements.
 
-## Acknowledgements
+```<div class="l-flexbox" style="border:1px solid red;">
+    <div class="l-flexbox--item" style="border:1px solid blue;">First flex item</div>
+    <div class="l-flexbox--item" style="border:1px solid green;">Second flex item</div>
+</div>
+```
 
-l-flexbox.css is a project by [Ron. Adams](https://github.com/ronadamsjr),
-created at [Nara Logics](http://nara.me/).
+## Authors
+
+* [Ron. Adams](https://github.com/ronadamsjr)
+* Created at [Nara Logics](http://nara.me/)
+
+## Contact
+* [Ron. Adams](http://twitter.com/ronaldjadams)
+
+## Licence
+
+Copyright 2013 Nara Logics, Inc.
+
+Licensed under the MIT License
