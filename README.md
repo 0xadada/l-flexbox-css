@@ -38,6 +38,8 @@ Create child-elements and add the `l-flexbox--item` class to these elements.
 </div>
 ```
 
+[Inspect the demo](http://htmlpreview.github.io/?https://github.com/ronadamsjr/l-flexbox-css/blob/master/demo.html) for more examples.
+
 ## Authors
 
 * [Ron. Adams](https://github.com/ronadamsjr) - [@ronaldjadams](http://twitter.com/ronaldjadams)
