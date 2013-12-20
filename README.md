@@ -20,6 +20,10 @@ the flexbox spec.
 
 [Modernizr](https://github.com/Modernizr/Modernizr)
 
+## How to Install
+* Install with [Bower](http://bower.io/): `bower install --save l-flexbox-css`
+* Download from the [project page](https://github.com/ronadamsjr/l-flexbox-css).
+
 ## How to use it
 
 Include l-flexbox.css in your HTML HEAD.
