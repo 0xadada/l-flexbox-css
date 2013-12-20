@@ -1,0 +1,53 @@
+/* ===== l-flexbox =======================================================
+ * Sets up the core styles for a flex container and its flexible
+ * child elements.
+ *
+ * We use float layouts for older browers, and flexbox layout for browsers
+ * that opt-in to flexbox capability with the Modernizr
+ * `html.flexbox` className
+ */
+
+/* ===== 
+ * Float layout for older browsers that don't support flexbox
+ */
+.l-flexbox {
+    overflow: hidden; /* contain floated children in non-flexbox capable browsers */
+    }
+
+.l-flexbox > .l-flexbox--item {
+    display: block; /* ensures that our floated items are block elements */
+    float: left;    /* float children to left, our default               */
+    }
+
+.l-flexbox > .l-flexbox--item:last-child {
+    float: right; /* simulate `justify-content:space-between` as our
+                   * default flexbox layout for devices that need to
+                   * use floats that don't support flexbox
+                   */
+    }
+
+
+/* ===== Flexbox layout for modern browsers that opt-in to Flexbox with Modernizr */
+.flexbox .l-flexbox {
+    /* use flexbox layout for all child elements */
+    display: -webkit-box;                   /* webkit legacy                            */
+    display: -webkit-flex;                  /* webkit latest                            */
+    display: -ms-flexbox;                   /* Microsoft ie10 impl. of 3/22/2012 w3c WD */
+ /* display: box                               legacy w3c workding draft                */
+    display: flex;                          /* w3c candidate rec.                       */
+
+    /* distribute space between children */ 
+    -webkit-justify-content: space-between; /* webkit-latest                            */
+    -ms-flex-pack: justify;                 /* Microsoft ie10 impl. of 3/22/2012 w3c WD */
+    justify-content: space-between;         /* w3c candidate rec.                       */
+
+    /* position the children along bottom */
+    -webkit-align-items: center;            /* webkit-latest                            */
+    -ms-flex-align: center;                 /* Microsoft ie10 impl. of 3/22/2012 w3c WD */
+    align-items: center;                    /* w3c candidate rec.                       */
+    }
+
+.flexbox .l-flexbox > .l-flexbox--item,
+.flexbox .l-flexbox > .l-flexbox--item:last-child {
+    float: none; /* reset float-layout since we've opted into flexbox */
+    }

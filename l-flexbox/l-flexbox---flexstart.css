@@ -1,0 +1,20 @@
+/* ===== l-flexbox---flexstart ===========================================
+ * Extends l-flexbox to flex align at the start of the flexbox container
+ */
+
+/* ===== Float layout for older browsers that don't support flexbox */
+.l-flexbox---flexstart > .l-flexbox--item {
+    float: left;   /* float children to left, our default */
+    }
+
+
+/* ===== Flexbox layout for modern browsers that opt-in to Flexbox with Modernizr */
+.flexbox .l-flexbox---flexstart {
+    /* distribute space to the end of the flexbox container */ 
+    -webkit-justify-content: flex-start;      /* webkit-latest      */
+    -ms-flex-pack: start;                     /* Microsoft ie10 impl. of 3/22/2012 w3c WD */
+    justify-content: flex-start;              /* w3c candidate rec. */
+    }
+.flexbox .l-flexbox---flexstart > .l-flexbox--item {
+    float: none; /* reset float-layout since we've opted into flexbox */
+    }

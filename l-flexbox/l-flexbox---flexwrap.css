@@ -1,0 +1,12 @@
+/* ===== l-flexbox---flexwrap ============================================
+ * Extends l-flexbox to wrap --item elements that do not fit the flexbox
+ * container.
+ */
+
+
+/* ===== Float layout for older browsers that don't support flexbox */
+.flexbox .l-flexbox---flexwrap {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    }

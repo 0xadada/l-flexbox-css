@@ -1,0 +1,39 @@
+/* ===== l-flexbox---center ==============================================
+ * Extends l-flexbox to flex align centered of the flexbox container
+ */
+
+
+/*
+ * Legacy layout
+ */
+
+/* We use `text-align` to get items centered, not floats */
+.l-flexbox---center {
+    text-align: center;
+    }
+
+/* ===== Float layout for older browsers that don't support flexbox */
+.l-flexbox---center > .l-flexbox--item {
+    float: none;           /* don't use floats */
+    display: inline-block; /* to force-box to shrink-wrap its contents */
+    }
+.l-flexbox---center > .l-flexbox--item:last-child {
+    float: none;
+    }
+
+/* 
+ * Modern flexbox layout
+ */
+
+/* ===== Flexbox layout for modern browsers that opt-in to Flexbox with Modernizr */
+.flexbox .l-flexbox---center {
+    /* reset text align */
+    text-align: left;
+    /* distribute space to the center of the flexbox container */ 
+    -webkit-justify-content: center;      /* webkit-latest      */
+    -ms-flex-pack: center;                /* Microsoft ie10 impl. of 3/22/2012 w3c WD */
+    justify-content: center;              /* w3c candidate rec. */
+    }
+.flexbox .l-flexbox---center > .l-flexbox--item {
+    display: block;
+    }

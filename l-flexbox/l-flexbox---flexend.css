@@ -1,0 +1,17 @@
+/* ===== l-flexbox---flexend =============================================
+ * Extends l-flexbox to flex align at the end of the flexbox container
+ */
+
+/* ===== Float layout for older browsers that don't support flexbox */
+.l-flexbox---flexend > .l-flexbox--item {
+    float: right;   /* float children to right, our default              */
+    }
+
+
+/* ===== Flexbox layout for modern browsers that opt-in to Flexbox with Modernizr */
+.flexbox .l-flexbox---flexend {
+    /* distribute space to the end of the flexbox container */ 
+    -webkit-justify-content: flex-end;      /* webkit-latest      */
+    -ms-flex-pack: end;                     /* Microsoft ie10 impl. of 3/22/2012 w3c WD */
+    justify-content: flex-end;              /* w3c candidate rec. */
+    }

@@ -1,0 +1,12 @@
+/* ===== l-flexbox---alignend ============================================
+ * Extends l-flexbox to flex align at the end of the flexbox container
+ */
+
+/* ===== Flexbox layout for modern browsers that opt-in to Flexbox with Modernizr */
+.flexbox .l-flexbox---alignend {
+    /* align flexbox items to the start of the flexbox container */ 
+    -webkit-box-align:   end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align:      end;
+    align-items:         flex-end;
+    }

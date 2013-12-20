@@ -1,0 +1,12 @@
+/* ===== l-flexbox---alignstart ==========================================
+ * Extends l-flexbox to flex align at the start of the flexbox container
+ */
+
+/* ===== Flexbox layout for modern browsers that opt-in to Flexbox with Modernizr */
+.flexbox .l-flexbox---alignstart {
+    /* align flexbox items to the start of the flexbox container */ 
+    -webkit-box-align:   start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align:      start;
+    align-items:         flex-start;
+    }

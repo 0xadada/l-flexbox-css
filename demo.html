@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>l-flexbox.css Demo</title>
+    <link href="l-flexbox/l-flexbox.css" rel="stylesheet">
+    <link href="l-flexbox/l-flexbox---alignend.css" rel="stylesheet">
+    <link href="l-flexbox/l-flexbox---alignstart.css" rel="stylesheet">
+    <link href="l-flexbox/l-flexbox---center.css" rel="stylesheet">
+    <link href="l-flexbox/l-flexbox---flexend.css" rel="stylesheet">
+    <link href="l-flexbox/l-flexbox---flexstart.css" rel="stylesheet">
+    <link href="l-flexbox/l-flexbox---flexwrap.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+</head>
+
+<body>
+    <h3>Semantics</h3>
+    <p>
+        Use <code>l-flexbox</code> when you wish want to use flexbox to layout
+        items on the screen using floats or flexbox for browsers that can
+        support flexbox.
+    </p>
+    <h3>Usage</h3>
+    <ol>
+        <li>Create a "flex container" and add the <code>l-flexbox</code> class to this element.</li>
+        <li>Create child-elements and add the <code>l-flexbox--item</code> class to these elements.</li>
+    </ol>
+    <div class="l-flexbox" style="border:1px solid red;">
+        <div class="l-flexbox--item" style="border:1px solid blue;">First flex item</div>
+        <div class="l-flexbox--item" style="border:1px solid green;">Second flex item</div>
+    </div>
+    <h3>Extended Classes</h3>
+    <p>
+        <code>l-flexbox---flexend</code>
+    </p>
+    <div class="l-flexbox l-flexbox---flexend" style="border:1px solid red;">
+        <div class="l-flexbox--item" style="border:1px solid blue;">First flex item</div>
+        <div class="l-flexbox--item" style="border:1px solid green;">Second flex item</div>
+    </div>
+    <p>
+        <code>l-flexbox---flexstart</code>
+    </p>
+    <div class="l-flexbox l-flexbox---flexstart" style="border:1px solid red;">
+        <div class="l-flexbox--item" style="border:1px solid blue;">First flex item</div>
+        <div class="l-flexbox--item" style="border:1px solid green;">Second flex item</div>
+    </div>
+    <p>
+        <code>l-flexbox---center</code>
+    </p>
+    <div class="l-flexbox l-flexbox---center" style="border:1px solid red;">
+        <div class="l-flexbox--item" style="border:1px solid blue;">First flex item</div>
+        <div class="l-flexbox--item" style="border:1px solid green;">Second flex item</div>
+    </div>
+    <p>
+        <code>l-flexbox---flexwrap</code><br>
+        ---flexwrap wraps flex items with specific widths below other elements.
+    </p>
+    <div class="l-flexbox l-flexbox---flexwrap" style="border:1px solid red; width:600px">
+        <div class="l-flexbox--item" style="border:1px solid blue; min-width:280px; max-width:280px; ">First flex item</div>
+        <div class="l-flexbox--item" style="border:1px solid green; min-width:300px; max-width:300px; ">Second flex item</div>
+        <div class="l-flexbox--item" style="border:1px solid orange; min-width:75%; max-width:75%; ">Second flex item</div>
+    </div>
+    
+    <h3>Nesting</h3>
+    <div class="l-flexbox " style="border:1px solid red;">
+        <div class="l-flexbox--item l-flexbox" style="border:1px solid blue; margin:1px; padding:1px;">
+            blue flex item<br>
+            <div class="l-flexbox--item" style="border:1px solid blue;">First flex item</div>
+            <div class="l-flexbox--item" style="border:1px solid green;">Second flex item</div>
+        </div>
+        <div class="l-flexbox--item l-flexbox" style="border:1px solid green; margin:1px; padding:1px;">
+            green flex item<br>
+            <div class="l-flexbox--item" style="border:1px solid blue;">First flex item</div>
+            <div class="l-flexbox--item" style="border:1px solid green;">Second flex item</div>
+        </div>
+    </div>
+</body>
+</html>
