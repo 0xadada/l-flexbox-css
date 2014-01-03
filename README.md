@@ -22,7 +22,7 @@ the flexbox spec.
 
 ## How to Install
 * Install with [Bower](http://bower.io/): `bower install --save l-flexbox-css`
-* Download from the [project page](https://github.com/ronadamsjr/l-flexbox-css).
+* Download from the [project page](https://github.com/ronaldjadams/l-flexbox-css).
 
 ## How to use it
 
@@ -38,11 +38,11 @@ Create child-elements and add the `l-flexbox--item` class to these elements.
 </div>
 ```
 
-[Inspect the demo](http://htmlpreview.github.io/?https://github.com/ronadamsjr/l-flexbox-css/blob/master/demo.html) for more examples.
+[Inspect the demo](http://htmlpreview.github.io/?https://github.com/ronaldjadams/l-flexbox-css/blob/master/demo.html) for more examples.
 
 ## Authors
 
-* [Ron. Adams](https://github.com/ronadamsjr) - [@ronaldjadams](http://twitter.com/ronaldjadams)
+* [Ron. Adams](https://github.com/ronaldjadams - [@ronaldjadams](http://twitter.com/ronaldjadams)
 * Created at [Nara Logics](http://nara.me/)
 
 ## Licence
