@@ -6,7 +6,7 @@ layouts using `flexbox`.
 l-flexbox.css supports a `float` fallback for browsers that don't support
 the flexbox spec.
 
-[Checkout the demo](http://htmlpreview.github.io/?https://github.com/ronadamsjr/l-flexbox-css/blob/master/demo.html)
+[Checkout the demo](http://htmlpreview.github.io/?https://github.com/ronaldjadams/l-flexbox-css/blob/master/demo.html)
 
 ## What does it do?
 
