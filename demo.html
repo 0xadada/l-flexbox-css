@@ -7,6 +7,7 @@
     <link href="l-flexbox/l-flexbox.css" rel="stylesheet">
     <link href="l-flexbox/l-flexbox---alignend.css" rel="stylesheet">
     <link href="l-flexbox/l-flexbox---alignstart.css" rel="stylesheet">
+    <link href="l-flexbox/l-flexbox---alignstretch.css" rel="stylesheet">
     <link href="l-flexbox/l-flexbox---center.css" rel="stylesheet">
     <link href="l-flexbox/l-flexbox---flexend.css" rel="stylesheet">
     <link href="l-flexbox/l-flexbox---flexstart.css" rel="stylesheet">
@@ -61,7 +62,67 @@
         <div class="l-flexbox--item" style="border:1px solid green; min-width:300px; max-width:300px; ">Second flex item</div>
         <div class="l-flexbox--item" style="border:1px solid orange; min-width:75%; max-width:75%; ">Second flex item</div>
     </div>
-    
+
+    <p>
+        <code>l-flexbox---alignend</code><br>
+        ---alignend positions the child flex items along the end of the cross-axis.
+    </p>
+    <div class="l-flexbox l-flexbox---alignend" style="border:1px solid red; width:600px; height:400px">
+        <div class="l-flexbox--item" style="border:1px solid blue;">
+            First flex item<br>
+            First flex item<br>
+            First flex item<br>
+            First flex item
+        </div>
+        <div class="l-flexbox--item" style="border:1px solid green;">
+            Second flex item<br>
+            Second flex item
+        </div>
+        <div class="l-flexbox--item" style="border:1px solid orange;">
+            Third flex item
+        </div>
+    </div>
+
+    <p>
+        <code>l-flexbox---alignstart</code><br>
+        ---alignend positions the child flex items along the start of the cross-axis.
+    </p>
+    <div class="l-flexbox l-flexbox---alignstart" style="border:1px solid red; width:600px; height:400px">
+        <div class="l-flexbox--item" style="border:1px solid blue;">
+            First flex item<br>
+            First flex item<br>
+            First flex item<br>
+            First flex item
+        </div>
+        <div class="l-flexbox--item" style="border:1px solid green;">
+            Second flex item<br>
+            Second flex item
+        </div>
+        <div class="l-flexbox--item" style="border:1px solid orange;">
+            Third flex item
+        </div>
+    </div>
+
+    <p>
+        <code>l-flexbox---alignstretch</code><br>
+        ---alignstretch stretches the flex items to fill the cross-axis.
+        </p>
+    <div class="l-flexbox l-flexbox---alignstretch" style="border:1px solid red; width:600px; height:400px">
+        <div class="l-flexbox--item" style="border:1px solid blue;">
+            First flex item<br>
+            First flex item<br>
+            First flex item<br>
+            First flex item
+        </div>
+        <div class="l-flexbox--item" style="border:1px solid green;">
+            Second flex item<br>
+            Second flex item
+        </div>
+        <div class="l-flexbox--item" style="border:1px solid orange;">
+            Third flex item
+        </div>
+    </div>
+
     <h3>Nesting</h3>
     <div class="l-flexbox " style="border:1px solid red;">
         <div class="l-flexbox--item l-flexbox" style="border:1px solid blue; margin:1px; padding:1px;">

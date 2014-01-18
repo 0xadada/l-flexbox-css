@@ -1,4 +1,4 @@
-* ===== l-flexbox---alignstretch ========================================
+/* ===== l-flexbox---alignstretch ========================================
 * Extends l-flexbox to flex align its items to stretch to fill available
 * space.
 */
@@ -7,7 +7,7 @@
 * and have a minimum browser width of 320px
 */
 @media only screen and (min-width: 320px) {
-    /* ===== Flexbox layout for modern browsers that opt-in to Flexbox with Modernizr */
+    /* lexbox layout for modern browsers that opt-in to Flexbox with Modernizr */
     .flexbox .l-flexbox---alignstretch {
         /* stretch flexbox items fill the flexbox container */
         -webkit-box-align: stretch;
