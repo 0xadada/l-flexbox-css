@@ -42,11 +42,10 @@ Create child-elements and add the `l-flexbox--item` class to these elements.
 
 ## Authors
 
-* [Ron. Adams](https://github.com/ronaldjadams - [@ronaldjadams](http://twitter.com/ronaldjadams)
-* Created at [Nara Logics](http://nara.me/)
+* [0xADADA](https://github.com/0xadada - [@0xadada](http://twitter.com/0xadada)
 
-## Licence
+## License
 
-Copyright 2013 Nara Logics, Inc.
+Copyright (c) 2013 0xADADA
 
 Licensed under the MIT License
