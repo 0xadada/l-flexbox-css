@@ -42,7 +42,7 @@ Create child-elements and add the `l-flexbox--item` class to these elements.
 
 ## Authors
 
-* [0xADADA](https://github.com/0xadada - [@0xadada](http://twitter.com/0xadada)
+* [0xADADA](https://github.com/0xadada) - [@0xadada](http://twitter.com/0xadada)
 
 ## License
 
